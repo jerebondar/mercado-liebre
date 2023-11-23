@@ -1,0 +1,448 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+.main-header {
+    background-color: #EAC926;
+}
+
+.main-header-2 {
+    background-color: #EAC926;
+    padding-bottom: 5px;
+}
+
+.logo-ml {
+    width: 140px;
+    padding: 10px;
+    margin-top: 5px; 
+}
+
+.main-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-bottom: 2px;
+  }
+
+.hamburguer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 15%;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.hamburguer-button {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.buscador-header {
+    display: flex;
+    align-items: center;
+}
+
+.buscador-header .buscador {
+    width: 90px; 
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-right: none;
+    background-color: whitesmoke;
+    padding-left: 3px;
+}
+
+.buscador:focus {
+    outline: none; 
+}
+
+.buscador-header .cuadro-buscador {
+  
+    height: 28px;
+    width: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-left: none; 
+    background-color: whitesmoke; 
+    color: darkblue;
+}
+
+.buscador-header a {
+    text-decoration: none;
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.main-navbar {
+    display: none;
+    padding: 8px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.main-navbar ul {
+    list-style: none;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+}
+
+.banner-header img {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+main {
+    background-color: #ebebeb;
+    margin: auto;
+    width: 100vw;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.content-area h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px;
+}
+
+.container-productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.articulo {
+    background-color: white;
+    width: 56%;
+}
+
+.articulo a {
+    text-decoration: none;
+    color: black;
+}
+
+
+main .articulo .datos-producto {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;  
+    position: relative;
+}
+
+main .imagen-producto {
+    width: 100%;
+}
+
+.container-productos .fa-truck {
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        color: #39b54a;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+     position: absolute;
+         left: 75%;
+        top: -15px;
+}
+
+.contenedor-precios-descuentos {
+        display: flex;
+        gap: 4%;
+        margin-bottom: 5px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+
+footer section {
+    text-align: center;
+}
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-top: 14px;
+}
+
+.container-footer section {
+    margin-top: 10px;
+    font-size: 14px;
+    max-width: 90%
+}
+
+footer .fa-solid {
+    font-size: 2em;
+    margin: 10px;
+    color: #1259c3;
+}
+
+section .credit-card {
+    margin-top: 20px;
+}
+
+.copy {
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 50px;   
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;  
+}
+
+.usuario, .contraseña, .iniciar-sesion {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px
+}
+
+.usuario {
+    margin-top: 20px;
+}
+
+.iniciar-sesion {
+    justify-content: center;
+   background-color: #1259c3;
+   color: white;
+   margin-bottom: 20px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; 
+    font-size: 14px;   
+}
+
+.nombreApellido {
+    margin-top: 20px;
+}
+
+.nombreApellido, .usuario-register, .email, .date, .domicilio, .contraseña-register, .confirmarContraseña {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+.fechaNacimiento, .perfilUsuario, .intereses, .fotoUsuario {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.comprador {
+    margin-right: 20px;
+}
+
+.input.intereses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; 
+}
+
+.checkbox {
+    margin-top: 15px;
+}
+
+.file {
+    margin-left: 60px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.enviar, .borrar {
+    width: 90px;
+    height: 22px;
+}
+
+.error {
+    display: none;
+}
+
+/* ========== TABLET ============= */
+
+@media (min-width: 769px) {
+
+.logo-ml {
+    width: 200px;
+    margin-right: 18px;
+}
+
+.hamburguer-button {
+        display: none;
+}
+
+.main-header-top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7%
+}
+
+.copy-header {
+    width: auto;
+    margin-top: 0;
+}
+    
+.main-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24%
+}
+
+.left-navbar, .right-navbar {
+    display: flex;
+}
+
+.left-navbar li, .right-navbar li {
+    margin-left: 15px;
+}
+
+.buscador-header .buscador {
+    width: 170px;
+}
+
+.content-area h3 {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 84px;
+}
+
+.container-productos {
+    flex-direction: row;
+    gap: 50px;
+}
+
+.articulo {
+    width: 35%
+}
+
+.container-footer {
+    flex-direction: row;
+}
+
+.container-footer section {
+    margin-top: 30px;
+    max-width: 28%; 
+}
+
+.usuario, .contraseña, .iniciar-sesion {
+    width: 500px;
+    height: 40px;
+}
+
+.nombreApellido, .usuario-register, .email, .date, .domicilio, .contraseña-register, .confirmarContraseña {
+    width: 300px;
+}
+
+}
+
+/* ========== DESKTOP ============= */
+
+@media (min-width: 1200px) { 
+    
+.container-productos {
+    gap: 25px;
+}
+
+.articulo {
+    width: 20%;
+}
+
+.descripciones {
+    font-size: 16px;
+    opacity: 0
+}
+
+.articulo:hover .descripciones {
+    opacity: 1;
+    transition: 0.3s ease-in-out
+}
+
+.articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    transition: 0.2s
+}
+
+.iniciar-sesion:hover {
+    background-color: #0022AA
+}
+
+.fa-truck:hover {
+    transform: rotate(-90deg);
+    transition: 0.4s ease
+}
+
+section .fa-solid:hover {
+    color: darkblue;
+    transition: 0-3 ease-in-out
+}
+}
